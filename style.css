@@ -1,0 +1,56 @@
+@keyframes ghuroChagol {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+body{
+    background-color:rgb(10, 8, 35) ;
+}
+.body{
+    background-color: rgb(10, 8, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.chagol{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: wheat;
+    box-shadow: 0 0 0px 110px brown;
+    border: 0;
+    /* position: relative; */
+    
+    animation: ghuroChagol 5s 1 ease;
+}
+#two{
+    transform: perspective(180deg);
+}
+p{
+    font-size: 40px;
+    margin: 10px;
+    padding-top: 0px;
+}
+.grass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    /* background-color: black; */
+    position: absolute;
+    bottom: 50px;
+    left: 350px;
+}
+.border{
+    border: 2px solid rebeccapurple;
+    
+}
+img{
+    height: 400px;
+    width: 400px;
+}
