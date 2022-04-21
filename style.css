@@ -54,3 +54,43 @@ img{
     height: 400px;
     width: 400px;
 }
+@media only screen and (max-width:688px) {
+    body{
+        height: auto;
+    }
+    .chagol{
+    height: 150px;
+    width: 150px;
+    box-shadow: 0 0 0px 40px brown;
+
+
+
+    }
+    .grass{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin: auto;
+        /* background-color: black; */
+        position: absolute;
+        bottom: 170px;
+        left: 100px;
+    }
+    #one,#two{
+        height: 140px;
+    }
+    .matha{
+        height: 150px ;
+        width: 150px;
+    }
+
+
+
+
+
+
+
+
+
+}
